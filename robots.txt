@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nokalabs.com/sitemap.xml
+
+# Disallow unnecessary paths
+Disallow: /node_modules/
+Disallow: /*.md$
+Disallow: /.git/
